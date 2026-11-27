@@ -1,3 +1,4 @@
+from django.conf import settings
 from django.db import models
 
 
@@ -6,6 +7,12 @@ class Course(models.Model):
         max_length=150,
         verbose_name="Название курса",
         help_text="Укажите название курса",
+    )
+
+    owner = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        verbose_name="Владелец курса",
     )
 
     preview = models.ImageField(
