@@ -1,0 +1,22 @@
+[
+{
+  "model": "users.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$5bCROzkX0biAMgM5hkd3KG$zhArPRhPT1rI70SgJzV+hhc62VathMcjiXQaBJc8p74=",
+    "last_login": null,
+    "is_superuser": false,
+    "email": "antonuser@example.com",
+    "phone": null,
+    "city": "",
+    "avatar": "",
+    "is_active": true,
+    "is_staff": false,
+    "date_joined": "2026-11-24T20:46:11.397Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+}
+]
